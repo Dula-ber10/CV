@@ -1,0 +1,137 @@
+<!DOCTYPE html>    <!--This is where we declare the document type, this tells the bowser what is the version of html we are using,which is 5, so basically render this file using html5 -->
+<html lang="en" dir="ltr"> <!-- this tells browser anything insode this tag is HTML code_-->
+  <head> <!-- Holds info about the webpage and tells the browser how it should hanndle the page-->
+    <meta charset="utf-8"> <!-- Meta stands for meta data , this meta element is called charset (charachterset) and we are setting it to UTF8, meta elements give exztra meta data/ associated data to your html document, and were telling the browser when opening file that all text in htm doocument  is ecoded using utf-8 encoding system)-->
+    <title>Dulneth's Personal Site</title> <!-- tile of the web page--> <!-- MOJIBAKE , HAPPENS WHEN YOU USE OUTDATED BROWSER LIKE IE, it has rendered charachters using wrong charachter set-->
+  </head>
+  <body>
+    <table cellspacing = '20'> <!-- this is add the the space between the profil pic and laptop screen -->
+      <tr>
+        <td><img src =https://img.freepik.com/free-vector/colored-hacker-code-realistic-composition-with-person-creates-codes-hacking-stealing-information-vector-illustration_1284-18005.jpg alt="Dulneths Profile picture"></td>
+        <td><h1> Dulneth Bernard</h1>
+        <p> <em>SEO and machine learning engineer of <strong><a href="https://www.google.com/">Google</a></strong></em> </p>
+        <br>
+        <p> Hello im Dulneth, i am an undergraduate at the university of westmisnters and currently studying at IIT to pursue a degree in Computer sciennce. After the completion
+        of my degree i plna to land a job at one of the bigget tech companies world such as google and face biik. WISH ME LUCK LOLLL!!!!</p></td>
+       </tr>
+    </table>
+
+
+    <hr size ="2" noshade>
+    <h3>Education</h3>
+    <ul>
+      <li><a href="https://www.google.com/">100 days of code Python bootcamp</a></li>
+      <li><a href="https://www.google.com/">The complete Web devolopement Bootcamp</a></li>
+      <li><a href="https://www.google.com/">Python for beginners university of MORATUWA</a> </li>
+    </ul>
+    <hr>
+    <h3>Work Experiences</h3>
+
+    <table border="1" cellspacing="10"> <!-- create a table with a vorder thats 1 px as tables sont have brodewr visible by default-->
+      <thead> <!-- table head-->
+        <tr>
+          <th>Dates</th> <!-- INSTED OF TD WE now use <th></th>  hwich is table header cell, by deafualt it will bold the text -->
+          <th>Work</th>
+        </tr>
+
+      </thead>
+      <tbody>   <!-- table body-->
+
+      </tbody>
+      <tfoot>
+
+      </tfoot> <!-- table footer-->
+
+      <tr>
+        <td>2010 - 2013</td> <!-- first cell contains the date-->
+        <td>Software engineer</td> <!-- fsecond cell contains what you have done for that date-->
+
+      </tr>
+
+      <tr> <!-- another row -->
+        <td>2010 - 2005</td>
+        <td>Born to win</td> <!-- no there will be a table wihtou any lines well indentred -->
+
+      </tr>
+
+
+    </table>
+    <hr>
+    <h3>Skills</h3>
+
+    <table cellspacing='10' >
+
+        <td>
+
+            <tr>                           <!-- 1 st row -->
+              <td>Python devolopement</td> <!-- 1st column 1st row-->
+              <td>⭐⭐⭐</td>             <!-- 2nd column 1st row-->
+
+
+
+            </tr>
+            <tr>                            <!-- 2nd  row -->
+              <td> Web devolopement</td>    <!-- 1st column 1st row-->
+              <td>⭐⭐⭐⭐</td>            <!-- 2nd column 1st row-->
+
+            </tr>
+
+            <tr>
+              <td> Gaming </td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+        </td>
+    </table>
+
+
+
+
+
+    <hr>
+    <a href="hobbies.html">My Hobbies</a>
+    <br>
+    <a href="contact_me.html"> Contact Me</a>
+
+  </body>
+</html>   <!-- simply typing html we generate the baove boilerplate because emmet plugin is installed-->
+
+<!-- browsers are set to render webpages as unicode which is similar to utf8, if you change encdoing of browser it will result in unreadable jumbled words, you can check encodeing by going to text  encoding ,Right-click on the page. Mouse over "Encoding." In the expanded menu, select "Unicode (UTF-8)."and it will show unicode, if you change it it will change labguage and messupo website-->
+<!-- utf8 is what shourd be using as it include all international symbols in unicord charachter set and emojis thats encoded with utf8, check unicode-Tabel.com-->
+<!-- sIMPLY COPY PASTE EMIJIS IN THAT WEBSITE TO THE CODE where appropriate-->
+<!--utf8 is renderedcorreclty in the maximum chance  in anybrowser-->
+<!-- check joe; spoky article on unicode-->
+<!-- to restructture code go to packages- atom beutify , itll make indentation automatically-->
+<!-- <em> tag </em> and i tag but use em tag BECAUSE IT EMPHASIZES rather than just decorate the text italisized the word, search italisize html mdn -->
+<!-- if there aremore than one tag for your requirement like above, use the one that is the strongest and not alsways about structure or styling, also use strong tag instead of b tag to bold because strong is more convinient than b as b is only styling -->
+<!-- horizontal rule = HR-->
+<!--UL stands for unordered lists essientially a bullet point list-->
+<!-- li tag means list item that encloses every bullet pi=oint in the ul tag>=-->
+<!-- ordered list is something that would have ABC ,123 etc.. you can lists inside lists -->
+<!-- image tag is a self closing tag , you need to specify  source of image -->
+<!-- to copy image from internet, roght click and copy image address -->
+<!-- structure:    img src ="image address"   alt = ""                -- >
+<!--  alt is used, if the browser cant render the image it will display an alternative text to the user to describe what the image was about-->
+<!-- This helps browsers like google know the webpage, if you have an image on burito and alternative text is burito img 1, if somone searches up borito your webpage is related and likly to show up -->
+<!--  Use PHOTOBUCKET TO UPLAOD PIC OF YOUR SELF AND GET IMAGE ADDRESS-->
+<!-- if the website you took the image is down, itll display image not foumd in webpage, to avoid this you can add image into out folder html personal site, then you can give it the file name or location  in src
+crop-circle.imageonline.co allows you to crop square image to circle, can be very effective when making portfolios
+
+to give hyperlinks we use anchor tag which is <a href="#"></a>
+to open link in new tab press cntrl and press the link
+so far we have used hyperlinks to take us to internal(hobbies) sites and external sites(google)
+
+inside table tag we can give table row (tr) and table column
+to cretae a hyper link that links a html document inside another html, we create the second html docunt in the same filder as the first, and in the first html file we give the second htlm file name in its href
+check line 22  <a href="hobbies.html"></a>
+<to represent a cell we ause td tag
+
+<th></th> by default boldes the text wrapped in it
+
+in mdn there are some elements that have thumbs down sighn that means they are deprecated which means
+it is downgraded, its something they no longer recommend to use
+
+
+what needs to be done for webaite:
+1. pload pp and round it  like IG
+2. at certifications and update the hyper links to thos certifications
+-->
